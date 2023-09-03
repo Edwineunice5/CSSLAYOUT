@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+       
+.nav img {
+    width: 250px;
+    margin-left: 350px;
+}
+.navlink {
+    margin-right: 250px;
+}
+.navlink a {
+    padding-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.about {
+    color: #00b39b;
+}
+.career {
+    color: #747474;
+}
+
+/* first section */
+.firstsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstsection img {
+    width: 50px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+#Making {
+    font-size: 35px;
+    color: #00b39b;
+}
+.doubleparagraph {
+    display: flex;
+padding: 30px 150px;
+justify-content: space-around;
+}
+.paragraph{
+    padding-right: 70px;
+    font-size: 15px;
+ font-family: 'open san 'sans-serif;
+ line-height: 1.5;
+ color: darkgray;
+ margin-left: 40px;
+ margin-right: 40px;
+}
+.thirdsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0px;
+    padding-bottom: 90px;
+    padding-right: 350px;
+    padding-left: 250px;
+}
+
